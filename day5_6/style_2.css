@@ -1,39 +1,52 @@
-#resume-title {
-    width: 15%;
-    height: 700px;
-    float: left;
-    background-color: rgb(63, 142, 249);
+body{
+    max-width: 1200px;
 }
 
-#resume-body {
-    width: 82%;
-    float: right;
-}
-
-h1 {
+#resume-title{
     text-align: center;
+    float: left;
+    background-color: rgb(83, 158, 228);
     color: white;
-    margin-top: 50px;
-}
-
-.inline_box {
-    display: inline;
+    width: 20%;
+    height: 600px;
     margin-right: 20px;
 }
 
-.inline_box .title_3 {
-    margin-right: 5px;
+#resume-body{
+    width: 75%;
+    float: left;
 }
 
-.inline_box p {
-    display: inline;
+#name{
+    float: left;
+    width: 20%;
 }
 
-.box_2 {
-    line-height: 5px;
-    margin-bottom: 30px;
+#gender{
+    width:20%;
+    float: left;
 }
 
-.title_3 {
-    font-weight: 600;
+#position{
+    width: 20%;
+    float: left;
+}
+
+#telephone{
+    width:20%;
+    float: left;
+}
+
+#email{
+    width:20%;
+    float: left;
+}
+
+#home{
+    width:20%;
+    float: left;
+}
+
+.clearfix{
+    clear: both;
 }
