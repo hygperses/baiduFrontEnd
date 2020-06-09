@@ -1,0 +1,12 @@
+div#basicMessage{
+    font-size: large;
+    font-weight: bold;
+    color: orange;/*字体颜色（不是背景颜色）*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: left;/*对其方式*/
+    text-decoration: underline;
+    text-indent: 15px;/*首行缩进*/
+    line-height: 20px;
+    text-shadow:5px 5px 5px blue;
+}
