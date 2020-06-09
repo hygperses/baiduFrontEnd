@@ -1,0 +1,62 @@
+#resume-title {
+    background-color: rgb(102, 102, 102);
+    padding: 7px;
+}
+
+#resume-title h1 {
+    margin-left: 25px;
+    color: white;
+}
+
+#resume-body {
+    display: block;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.info-block {
+    display: block;
+    height: 100px;
+    border: solid 1px rgb(204, 204, 204);
+}
+
+.discription {
+    width: 10%;
+    height: 99%;
+    float: left;
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+}
+
+.discription h2 {
+    margin-top: 17%;
+}
+
+.content {
+    width: 84%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.inline_box {
+    display: inline;
+    margin-right: 20px;
+}
+
+.inline_box .title_3 {
+    margin-right: 5px;
+}
+
+.inline_box p {
+    display: inline;
+}
+
+
+.box_2 p {
+    display: inline;
+}
+
+.title_3 {
+    font-weight: 600;
+}

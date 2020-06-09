@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">    
+    <title>IFE ECMAScript</title>
+</head>
+<body>        
+    <input id="first-number" type="number"  placeholder="第一个数字">
+    <input id="second-number" type="number"  placeholder="第二个数字">
+    <button id="add-btn">加</button>
+    <button id="minus-btn">减</button>
+    <button id="times-btn">乘</button>
+    <button id="divide-btn">除</button>
+    <p id="result">运算结果</p>
+    <script>
+            // 实现一个计算器，并包含输入异常判断
+            //按钮对象获取
+            var addbtn=document.getElementById("add-btn");
+            var minusbtn=document.getElementById("minus-btn");
+            var timesbtn=document.getElementById("times-btn");
+            var dividebtn=document.getElementById("divide-btn");
+            
+            //输入对象获取
+            var firstNum=document.getElementById("first-number");
+            var secondNum=document.getElementById("second-number");
+
+            var p=document.getElementById("result");
+
+            
+
+            //绑定单击响应函数
+            addbtn.onclick=function(){
+                if(!isNaN(Number(firstNum.value))&&!isNaN(Number(secondNum.value))){
+                    p.innerText+=parseInt(firstNum.value)+parseInt(secondNum.value);
+                }
+                
+            };
+
+            minusbtn.onclick=function(){
+                if(!isNaN(Number(firstNum.value))&&!isNaN(Number(secondNum.value))){
+                    p.innerText+=parseInt(firstNum.value)-parseInt(secondNum.value);
+                }
+                    
+            };
+
+            timesbtn.onclick=function(){
+                if(!isNaN(Number(firstNum.value))&&!isNaN(Number(secondNum.value))){
+                    p.innerText+=parseInt(firstNum.value)*parseInt(secondNum.value);
+                }     
+            };
+
+            dividebtn.onclick=function(){
+                if(!isNaN(Number(firstNum.value))&&!isNaN(Number(secondNum.value))&&Number(secondNum.value)!=0){
+                    p.innerText+=parseInt(firstNum.value)/parseInt(secondNum.value);
+                }   
+            };
+    </script>
+</body>
+</html>
